@@ -1,0 +1,19 @@
+.square {
+    /*border: 1px solid #F70014;*/
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    /**border: 1px solid red;**/
+}
+
+.square.white {
+    background-color: white;
+}
+
+.square.black {
+    background-color: black;
+}
+
+.square:not(.static) {
+    cursor: pointer;
+}
